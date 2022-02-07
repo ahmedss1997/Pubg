@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>左上角</title>
+    <g id="平台币界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,0 L36,36 L0,36 L0,0 Z M10.7442433,20 L5,25.6426027 L6.98549739,27.5249649 L10.7442433,23.7647244 L17.0145026,30 L19,28.1176378 L10.7442433,20 Z" id="左上角" fill="#227EE1" transform="translate(18.000000, 18.000000) scale(1, -1) translate(-18.000000, -18.000000) "></path>
+    </g>
+</svg>
