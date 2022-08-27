@@ -259,7 +259,7 @@ html {
   padding: 10px 12px;
   outline: none;
 }
-.main-content .container .all-forms .form-main .input-groups span {
+.main-content .container .all-forms .form-main .input-groups .ok {
   background-color: #4E88FC;
   border: 1px solid #4E88FC;
   color: #fff;

